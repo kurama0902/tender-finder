@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+.leaflet-container {
+    height: 100vh;
+    width: 50%;
+}
+
+@config "../tailwind.config.js"
