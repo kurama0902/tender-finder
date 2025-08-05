@@ -10,13 +10,9 @@ cd ui
 npm install
 ```
 
-```bash
-cd API
-npm install
-```
-
 Create a virtual environment
 ```bash
+cd API
 python -m venv venv
 ```
 
@@ -38,6 +34,12 @@ pip install -r requirements.txt
 
 ### Download the MySQL 9.4.0 by this link
 https://dev.mysql.com/downloads/mysql/?platform&os=3 (root password in my case is '1234')
+
+```cmd
+# windows set path MySQL (cmd)
+set PATH=%PATH%;"C:\Program Files\MySQL\MySQL Server 9.4\bin"
+
+```
 
 ### Dowload the MySQL Workbench 8.0.43 by this link
  https://dev.mysql.com/downloads/workbench/
