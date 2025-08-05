@@ -35,7 +35,7 @@ pip install -r requirements.txt
 ### Download the MySQL 9.4.0 by this link
 https://dev.mysql.com/downloads/mysql/?platform&os=3 (root password in my case is '1234')
 
-```cmd
+```bash
 # windows set path MySQL (cmd)
 set PATH=%PATH%;"C:\Program Files\MySQL\MySQL Server 9.4\bin"
 
